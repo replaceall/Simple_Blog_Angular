@@ -1,0 +1,24 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+
+<div class="item" >
+  <span><h3>{{blog.title}}</h3><p class=" push-left"> {{blog.category}}</p>
+  <div class="desc">{{blog.body}}</div>
+<cite>--<b>{{blog.author}}</b></cite>
+
+  </span>
+</div>
+<button class="but waves-effect waves-light btn" (click)="goBack()">Go-Back</button>
+<div *ngIf='activeUser'>
+
+  <span class="glyphicon glyphicon-tags"></span>
+  hffh
+
+</div>
+<!--<div class="comments">-->
+  <!--<div *ngFor="let comment of blog.comments">-->
+    <!--{{comment.body}}-->
+  <!--</div>-->
+<!--</div>-->

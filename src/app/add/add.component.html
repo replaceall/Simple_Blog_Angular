@@ -1,0 +1,28 @@
+<link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<h4>Add New Post</h4>
+<br>
+<h5>Title</h5>
+<input class="title" type="text" [(ngModel)]="title">
+<br>
+<h5>Body</h5>
+<input class="body" type="text" [(ngModel)]="body">
+<br>
+<h5>Featured URL</h5>
+<input class="url" type="text" [(ngModel)]="url" placeholder="http://placekitten.com/200/300">
+<br>
+<div>
+  <b>Category    :</b>
+  <input class="category" [(ngModel)]="category" placeholder="Politics / General / Econamics / Humanity /Tech">
+
+
+    <!--<select name="cars" id="category" class="form-control">-->
+      <!--<option value="volvo">Volvo</option>-->
+      <!--<option value="saab">Saab</option>-->
+      <!--<option value="opel">Opel</option>-->
+      <!--<option value="audi">Audi</option>-->
+    <!--</select>-->
+
+</div>
+<button class="btn waves-effect waves-light" type="submit" name="action" (click)="add_to_blog(title,body,url,category)">Submit
+</button>
+

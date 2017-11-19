@@ -1,0 +1,23 @@
+
+<div *ngFor="let post of blog">
+  <div *ngIf="post.id==id">
+    <button class="fa fa-heart" (click)="post.likes = post.likes+1"> {{post.likes}}</button>
+    <h3>Comments</h3>
+<ul>
+    <li *ngFor="let comment of post.comments">
+       "{{comment.body}}"
+    <cite>- <b>{{comment.author}}</b></cite>
+  </li>
+</ul>
+<form name="commentForm" (ngSubmit)="addComment(id,comment.body,comment.author)" novalidate>
+
+
+  <h4>Add Comment</h4>
+  <textarea  cols="30" rows="10" required [(ngModel)]="comment.body"></textarea>
+  <label for="">by:</label>
+  <!--<input type="text"  required placeholder="Name" />-->
+
+  <input type="submit" value="Submit" />
+</form>
+  </div>
+</div>

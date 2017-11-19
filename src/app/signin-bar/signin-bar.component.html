@@ -1,0 +1,9 @@
+
+
+<li *ngIf="loggedIn"><a [routerLink]="['/home']" (click)="SignOut()" >Sign Out</a></li>
+<li *ngIf="loggedOut"><a [routerLink]="['/user']">SignIn</a></li>
+<li *ngIf="loggedIn"><a [routerLink]="['/add']" > ADD BY "{{name}}"</a></li>
+<!--<li *ngIf="isSelect">-->
+<!--<app-userform (notify)="getData(data)"></app-userform>-->
+<!--</li>-->
+

@@ -1,0 +1,114 @@
+{
+  "blog": [
+    {
+      "title": "Title 1",
+      "body": "The President is responsible for appointing many high officials in India .These high officials include the Governors of the 29 States, the Chief Justice, other judges of the Supreme Court and High Courts of India on the advice of other judges, the Attorney General , Controller and Auditor General the Chief Election Commissioner and other Election Commissioners, the Chairman and other Members of the Union Public Service Commission, the President's Officer, the Cabinet Secretary and the Ambassadors and High Commissioners to other countries on the recommendations of the cabinet[15][16]",
+      "author": "Kumar",
+      "comments": [
+        {
+          "body": "its nothing_6",
+          "author": "asdfg"
+        }
+      ],
+      "likes": 0,
+      "image": "mahender",
+      "createdOn": 1510306043111,
+      "authorId": 2,
+      "favourite": [],
+      "category": "Politics",
+      "id": 6
+    },
+    {
+      "title": "President of Slovenia",
+      "body": "The office of President of the Republic of Slovenia (Slovene: Predsednik Republike Slovenije) was established on 23 December 1991, when the National Assembly passed a new Constitution as a result of independence from Socialist Federal Republic of Yugoslavia.\nAlthough entrusted with limited power by the Constitution, in practice the position is mostly ceremonial. Among other things the President is also the Commander-in-Chief of the Slovenian Armed Forces. The office of the President is the Presidential Palace in Ljubljana. The President of Slovenia is directly elected by universal adult suffrage once every five years. Any Slovenian citizen can run for president, but can hold only two consecutive terms in office.",
+      "author": "Naresh",
+      "comments": [
+        {
+          "body": "its nothing_7",
+          "author": "asdfg"
+        }
+      ],
+      "likes": 0,
+      "image": "Naresh",
+      "createdOn": 1510306756997,
+      "authorId": 1,
+      "favourite": [],
+      "category": "General",
+      "id": 7
+    },
+    {
+      "title": "Cup",
+      "body": "The High Courts are the principal civil courts of original jurisdiction in each state and union territory. However, a High Court exercises its original civil and criminal jurisdiction only if the subordinate courts are not authorized by law to try such matters for lack of pecuniary, territorial jurisdiction. High courts may also enjoy original jurisdiction in certain matters if so designated specifically in a state or federal law.",
+      "author": "Kumar",
+      "comments": [
+        {
+          "body": "its nothing_8",
+          "author": "asdfg"
+        }
+      ],
+      "likes": 0,
+      "image": "Cup",
+      "createdOn": 1510310622528,
+      "category": "Tech",
+      "favourite": [],
+      "authorId": 2,
+      "id": 8
+    },
+    {
+      "title": "Turk",
+      "body": "In December 2013 Türk announced that he was planning to run for UN Secretary-General. He was soon supported by Prime Minister Alenka Bratušek and Minister of Foreign Affairs Karel Erjavec. In January 2014 the Slovene government endorsed Türk as its candidate for UN Secretary-General. He was later also supported by Prime Minister Miro Cerar and President Borut Pahor, as well as by Speaker of the National Assembly of Slovenia Milan Brglez (also a professor at the University of Ljubljana). In accordance with the UN procedure, the government of Slovenia nominated Danilo Türk as candidate for UN Secretary-General on 8 February 2016.",
+      "author": "Mahender",
+      "comments": [
+        {
+          "body": "its_trailWiki",
+          "author": "Mahender"
+        }
+      ],
+      "likes": 0,
+      "image": "something",
+      "createdOn": 1510585209190,
+      "category": "Humanity",
+      "favourite": [],
+      "authorId": 3,
+      "id": 10
+    },
+    {
+      "title": "Presidency",
+      "body": "In June 2007, Türk ran in the Slovene presidential election. As an \"independent\" candidate, he was backed by a broad coalition of left-wing parties, composed of the opposition Zares party and Social Democrats, the Democratic Party of Pensioners of Slovenia, and the extra-parliamentary Christian Socialist Party and Democratic Party. In the first round of the presidential elections, held on 21 October 2007, he placed second with 24.54% of the votes, which brought him into the runoff against the centre right candidate Lojze Peterle (who received 28.50% of the popular vote). He won the runoff on 11 November 2007 with 68.2% of the votes,[2] becoming the third president of Slovenia on December 23, 2007. Türk ran for reelection in 2012, but lost the election to Borut Pahor in a second round of voting, held on 2 December 2012.[5] He received roughly one-third of the votes.[1]",
+      "author": "Mahender",
+      "comments": [
+        {
+          "body": "its_trailSomething",
+          "author": "Mahender"
+        }
+      ],
+      "likes": 0,
+      "authorId": 3,
+      "image": "xfxf",
+      "category": "Politics",
+      "favourite": [],
+      "createdOn": 1510729909007,
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "name": "Naresh",
+      "password": "asdfg",
+      "status": true,
+      "id": 1
+    },
+    {
+      "name": "Kumar",
+      "password": "asdfg",
+      "status": false,
+      "id": 2
+    },
+    {
+      "name": "Mahender",
+      "password": "asdfg",
+      "status": false,
+      "id": 3
+    }
+  ]
+}

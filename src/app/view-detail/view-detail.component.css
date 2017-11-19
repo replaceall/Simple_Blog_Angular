@@ -1,0 +1,15 @@
+.item{
+  width:800px;
+  text-align: center;
+  border: 2px solid cornflowerblue;
+  align-content: center;
+  border-bottom-width: 7px;
+  margin-left: 350px;
+  cursor: pointer;
+
+}
+.but{
+  margin-top: 5px;
+  border-top: 10px;
+  margin-left: 670px
+}

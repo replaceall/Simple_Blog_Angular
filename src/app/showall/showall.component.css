@@ -1,0 +1,38 @@
+.item_border{
+  border-color: bisque;
+  border: 2px solid;
+  padding-bottom: 5px;
+}
+ul.post-grid {
+  margin:0;
+  padding:0;
+  width: 800px;
+  list-style-type:circle;
+      }
+       li {
+         padding: 20px;
+         cursor: pointer;
+         transition: background linear 0.5s;
+         border-bottom: 1px solid;
+       }
+
+
+li:hover {
+  background:darkgray;
+  color: black;
+}
+.adjust{
+  align-content: center;
+  border-bottom-width: 7px;
+  margin-left: 350px;
+}
+.header{
+  text-align: center;
+  color: darkred;
+}
+.eachitem{
+  margin-bottom: 5px;
+}
+
+
+

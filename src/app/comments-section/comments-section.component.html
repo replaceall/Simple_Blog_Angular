@@ -1,0 +1,37 @@
+<app-showall (notify)="getId($event)" (notifyBlog)="sendItems($event)"></app-showall>
+
+<div class="post" *ngFor="let post of blog" >
+  <div *ngIf="isSelect== post.id">
+
+    <h2>{{post.title}}</h2>
+    <img src="{{post.image}}"/>
+    <cite>by {{post.author}} on {{post.createdOn | date}}</cite>
+    <div class="post-body">
+
+        {{post.body}}
+
+    </div>
+    <button class="fa fa-heart" (click)="post.likes = post.likes+1"> {{post.likes}}</button>
+    <h3>Comments</h3>
+    <ul>
+      <li *ngFor="let comment of post.comments">
+        "{{comment.body}}"
+        <cite>- <b>{{comment.author}}</b></cite>
+      </li>
+    </ul>
+
+
+
+      <h4>Add Comment</h4>
+      <textarea  cols="30" rows="10" required #comment ></textarea>
+      <label for="">by:</label>
+      <input type="text"  required placeholder="Name" #author/>
+
+      <input type="submit" value="Submit" (click)="addComments(id,comment.value,author.value)"/>
+
+  </div>
+</div>
+
+
+
+

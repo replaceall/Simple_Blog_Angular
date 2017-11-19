@@ -1,0 +1,19 @@
+<div class="title"><b>{{blog.title}}</b> <small class="push-right"><cite>--<b>{{blog.author}}</b></cite></small></div>
+<div class="title">{{blog.body}}</div>
+<div class="title">
+<button #update (click)="updateBlogForm(blog)" class="waves-effect waves-light btn">Update</button>
+<button #delete (click)="deleteBlog(blog)" class="waves-effect waves-light btn">Delete</button>
+<button #goback (click)="goBack()" class="waves-effect waves-light btn">Go Back</button>
+</div>
+<div *ngIf="updateSelect" class="buttons">
+  <h5>Title  : <input type="text" #title placeholder="Title" required></h5>
+  <h5>Body</h5>
+  <textarea  cols="30" rows="1000" required #body></textarea>
+  <br>
+
+<button (click)="updateBlog(blog,body.value,title.value)" class="waves-effect waves-light btn">Update</button>
+
+
+</div>
+
+

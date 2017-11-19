@@ -1,0 +1,22 @@
+.border{
+  width:800px;
+
+  margin-right: 50px;
+  margin-left: 350px;
+  border-bottom: 5px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid sienna;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bottom{
+  padding-bottom: 10px;
+}
+#title{
+  text-align: center;
+  color: darkred;
+}
+ul:hover {
+  background:darkgray;
+  color: black;
+}

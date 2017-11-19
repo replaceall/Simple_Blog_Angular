@@ -1,0 +1,29 @@
+<link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/110131/responsive.css">
+<!--<script src="https://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>-->
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="row adjust">
+  <ul class="post-grid">
+    <li *ngFor="let post of blog" (click) = "sendId(post.id,blog);" class="eachitem" >
+      <a [routerLink]="['/getblogdetail',post.id]">
+      <span><h3 class="header">{{post.title}}</h3><small><cite>--<b>{{post.author}}</b></cite></small><small class=" push-right"> <b>{{post.category}}
+      </b></small></span>
+        <br>
+      <p>{{post.body}}</p>
+
+      <p class="fa fa-comment push-left"> {{post.comments.length}}
+      </p>
+      <p>{{post.comments.body}}</p>
+      <p class="fa fa-heart push-right"> {{post.likes}}
+      </p>
+     </a>
+    </li>
+  </ul>
+  </div>
+
+
+
+
+

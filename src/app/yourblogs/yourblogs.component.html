@@ -1,0 +1,16 @@
+
+<div *ngFor="let blogs of blog">
+
+    <div *ngIf="blogs.authorId==activeUser.id" class="border">
+      <ul>
+      <a [routerLink]="['/getblog',blogs.id]">
+      <div id="title" ><h5>{{blogs.title}}</h5></div>
+      <div class="bottom">{{blogs.body}}</div>
+      </a>
+      </ul>
+  </div>
+
+
+</div>
+
+
